@@ -1,0 +1,101 @@
+body {
+    color: #000000;
+}
+
+.header-title {
+    color: #005FA3;
+}
+
+.header-contact-link {
+    text-decoration: none;
+}
+
+.header-contact-text {
+    color: #000000;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.desc {
+    background-color: #191E22;
+}
+
+.desc-title, 
+.desc-link {
+    color:#ffffff;
+    background-image: url(../img/first_screen_bg.png);
+}
+
+.desc-link {
+    text-decoration: none;
+}
+
+.service {
+    background-color: #EBEBEB;
+}
+
+.section-title {
+    color: #BDBDBD;
+}
+
+.section-sub-title {
+    color: #333333;
+}
+
+.about-us-styled-text {
+    color: #005FA3;
+}
+
+.about-us-text {
+    color: #000000;
+}
+
+.clients {
+    background-color: #EBEBEB;
+}
+
+.advantage {
+    background-color: #EBEBEB;
+}
+
+.service-item-title {
+    color: #FFFFFF;
+}
+
+.service-item-link {
+    background-image: url(../img/our_services_bg.png);
+    text-decoration: none;
+}
+.about-us-item-elements {
+    background-color: #EBEBEB;
+}
+
+.about-us-element-count,
+.about-us-element-title  {
+    color:#000000
+}
+
+.reviews-button {
+    background-color: #005FA3;
+    color: #FFFFFF;
+}
+
+.reviews-items {
+    background-color: #EBEBEB;
+}
+
+.reviews-items-text {
+    color: #000000;
+}
+
+.reviews-items-name {
+    color: #000000;
+}
+
+.reviews-items-job {
+    color: #4F4F4F;
+}

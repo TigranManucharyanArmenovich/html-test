@@ -1,157 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Бухгалтерские услуги</title>
 </head>
 <body>
-    <header>
-        <img src="./img/org_logo_icon.svg" alt="logo">
-        <p>BuhOne</p>
+    <header class="header">
+        <img class="header-img" src="./img/org_logo_icon.svg" alt="logo">
+        <p class="header-title">BuhOne</p>
         <ul>
             <li>
-                <a href="tel:81112223344">
+                <a class="header-contact-link" href="tel:81112223344">
                     <img src="./img/phone_icon.svg" alt="phone">
-                    <span>8 (111) 222-33-44</span>
+                    <span class="header-contact-text">8 (111) 222-33-44</span>
                 </a>
             </li>
             <li>
                 <img src="./img/clock_icon.svg" alt="clock">
-                <span>Пн-Пт 10:00-18:00</span>
+                <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
             </li>
             <li>
-                <a href="mailto:order@buhone.ru">
+                <a class="header-contact-link" href="mailto:order@buhone.ru">
                     <img src="./img/blue_mail_icon.svg" alt="mail">
-                    <span>order@buhone.ru</span>
+                    <span class="header-contact-text">order@buhone.ru</span>
                 </a>
             </li>
             <li>
                 <img src="./img/gps_point_icon.svg" alt="gps">
-                <span>Невский пр. 130</span>
+                <span class="header-contact-text">Невский пр. 130</span>
             </li>
         </ul>
         <nav>
             <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Кейсы</a></li>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a class="header-nav-link" href="#">Услуги</a></li>
+                <li><a class="header-nav-link" href="#">Кейсы</a></li>
+                <li><a class="header-nav-link" href="#">Главная</a></li>
+                <li><a class="header-nav-link" href="#">О компании</a></li>
+                <li><a class="header-nav-link" href="#">Контакты</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Бухгалтерские услуги в Санкт-Петербурге</h1>
-            <a href="#">Наша презентация</a>
+        <section class="desc">
+            <h1 class="desc-title">Бухгалтерские услуги в Санкт-Петербурге</h1>
+            <a class="desc-link" href="#">Наша презентация</a>
         </section>
-        <section>
-            <h2>Наши услуги</h2>
-            <p>Мы специализируемся</p>
-            <ul>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
-                <li><a href="#"><h3>Бухгалтерское обслуживание</h3></a></li>
+        <section class="service">
+            <h2 class="section-title">Наши услуги</h2>
+            <p class="section-sub-title">Мы специализируемся</p>
+            <ul class="service-list">
+                <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
+                <li><a class="service-item-link" href="#"><h3 class="service-item-title">Бухгалтерское обслуживание</h3></a></li>
             </ul>
         </section>
-        <section>
-            <h2>О нас</h2>
-            <p>Компания ИвановПром</p>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+        <section class="about-us">
+            <h2 class="section-title">О нас</h2>
+            <p class="section-sub-title">Компания <span class="about-us-styled-text">ИвановПром</span></p>
+            <p class="about-us-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
                 вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
                 на латинице с начала XVI века. В то время некий безымянный печатник 
                 создал большую коллекцию размеров и форм шрифтов, используя Lorem 
                 Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил 
                 без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
-            <ul>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="">Все кейсы</a>
+            <ul class="ablut-us-list">
+                <li class="about-us-item-elements">
+                    <p class="about-us-element-count">90</p>
+                    <p class="about-us-element-title">Завершено крупных сделок</p>
+                    <a class="about-us-element-link" href="">Все кейсы</a>
                 </li>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="">Все кейсы</a>
+                <li class="about-us-item-elements">
+                    <p class="about-us-element-count">90</p>
+                    <p class="about-us-element-title">Завершено крупных сделок</p>
+                    <a class="about-us-element-link" href="">Все кейсы</a>
                 </li>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="">Все кейсы</a>
+                <li class="about-us-item-elements">
+                    <p class="about-us-element-count">90</p>
+                    <p class="about-us-element-title">Завершено крупных сделок</p>
+                    <a class="about-us-element-link" href="">Все кейсы</a>
                 </li>
-                <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <a href="">Все кейсы</a>
+                <li class="about-us-item-elements">
+                    <p class="about-us-element-count">90</p>
+                    <p class="about-us-element-title">Завершено крупных сделок</p>
+                    <a class="about-us-element-link" href="">Все кейсы</a>
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Наши клиенты</h2>
-            <p>С нами работают</p>
+        <section class="clients">
+            <h2 class="section-title">Наши клиенты</h2>
+            <p class="section-sub-title">С нами работают</p>
             <ul>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft_logo.png" alt="microsoft"></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft_logo.png" alt="microsoft"></a></li>
             </ul>
         </section>
-        <section>
-            <h2>Отзывы</h2>
-            <p>Ваши благодарности</p>
-            <button type="button" disabled>Оставить отзыв</button>
-            <ul>
-                <li>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+        <section class="reviews">
+            <h2 class="section-title">Отзывы</h2>
+            <p class="section-sub-title">Ваши благодарности</p>
+            <button class="reviews-button" type="button" disabled>Оставить отзыв</button>
+            <ul class="reviewes-list">
+                <li class="reviews-items">
+                    <p class="reviews-items-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
                         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
                         на латинице с начала XVI века. В то время некий безымянный печатник 
                         создал большую коллекцию размеров и форм шрифтов, используя Lorem 
                         Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил 
                         без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                     <img src="./img/ceo_round_photo.png" alt="photo">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="reviews-items-name">Екатерина Иванова</p>
+                    <p class="reviews-items-job">Директор ООО “Раз-два”</p>
                 </li>
-                <li>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+                <li class="reviews-items">
+                    <p class="reviews-items-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
                         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
                         на латинице с начала XVI века. В то время некий безымянный печатник 
                         создал большую коллекцию размеров и форм шрифтов, используя Lorem 
                         Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил 
                         без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                     <img src="./img/ceo_round_photo.png" alt="photo">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="reviews-items-name">Екатерина Иванова</p>
+                    <p class="reviews-items-job">Директор ООО “Раз-два”</p>
                 </li>
-                <li>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+                <li class="reviews-items">
+                    <p class="reviews-items-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
                         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
                         на латинице с начала XVI века. В то время некий безымянный печатник 
                         создал большую коллекцию размеров и форм шрифтов, используя Lorem 
                         Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил 
                         без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                     <img src="./img/ceo_round_photo.png" alt="photo">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="reviews-items-name">Екатерина Иванова</p>
+                    <p class="reviews-items-job">Директор ООО “Раз-два”</p>
                 </li>
-                <li>
-                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
+                <li class="reviews-items">
+                    <p class="reviews-items-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и 
                         вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов 
                         на латинице с начала XVI века. В то время некий безымянный печатник 
                         создал большую коллекцию размеров и форм шрифтов, используя Lorem 
                         Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил 
                         без заметных изменений пять веков, но и перешагнул в электронный дизайн.</p>
                     <img src="./img/ceo_round_photo.png" alt="photo">
-                    <p>Екатерина Иванова</p>
-                    <p>Директор ООО “Раз-два”</p>
+                    <p class="reviews-items-name">Екатерина Иванова</p>
+                    <p class="reviews-items-job">Директор ООО “Раз-два”</p>
                 </li>
             </ul>
             <ul>
@@ -163,9 +165,9 @@
             <button type="button" disabled><img src="./img/arrow_left_icon.svg" alt="arrow_left"></button>
             <button type="button"><img src="./img/arrow_right_icon.svg" alt="arrow_right"></button>
         </section>
-        <section>
-            <h2>Наши преимущетсва</h2>
-            <p>Мы предлагаем</p>
+        <section class="advantage">
+            <h2 class="section-title">Наши преимущества</h2>
+            <p class="section-sub-title">Мы предлагаем</p>
             <ul>
                 <li>
                     <img src="./img/our_advanteges_quality_icon.png" alt="quality">
