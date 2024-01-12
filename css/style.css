@@ -1,9 +1,18 @@
 body {
     color: #000000;
+    font-family: "lato";
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
 }
 
 .header-title {
     color: #005FA3;
+    font-family: "Merriweather";
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 50px;
+    
 }
 
 .header-contact-link {
@@ -12,22 +21,43 @@ body {
 
 .header-contact-text {
     color: #000000;
+    font-family: "Lato";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
 }
 
 .header-nav-link {
     text-decoration: none;
     color: #222222;
     text-transform: uppercase;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
 }
 
 .desc {
     background-color: #191E22;
+    background-image: url(../img/first_screen_bg.png);
+
 }
 
-.desc-title, 
+.desc-title {
+    color:#ffffff;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66px;
+} 
+
 .desc-link {
     color:#ffffff;
-    background-image: url(../img/first_screen_bg.png);
+    background-color: #005FA3;
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
 }
 
 .desc-link {
@@ -40,10 +70,18 @@ body {
 
 .section-title {
     color: #BDBDBD;
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 33px;
 }
 
 .section-sub-title {
     color: #333333;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
 }
 
 .about-us-styled-text {
@@ -52,6 +90,10 @@ body {
 
 .about-us-text {
     color: #000000;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
 }
 
 .clients {
@@ -62,6 +104,14 @@ body {
     background-color: #EBEBEB;
 }
 
+.advantage-text {
+    color: #000000;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
 .service-item-title {
     color: #FFFFFF;
 }
@@ -69,19 +119,45 @@ body {
 .service-item-link {
     background-image: url(../img/our_services_bg.png);
     text-decoration: none;
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
 }
 .about-us-item-elements {
     background-color: #EBEBEB;
 }
 
-.about-us-element-count,
+.about-us-element-count {
+    color:#000000;
+    font-family: "Lato";
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 66px;
+}
 .about-us-element-title  {
-    color:#000000
+    color:#000000;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.about-us-element-link {
+    color: #005FA3;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
 }
 
 .reviews-button {
     background-color: #005FA3;
     color: #FFFFFF;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 .reviews-items {
@@ -94,8 +170,54 @@ body {
 
 .reviews-items-name {
     color: #000000;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
 }
 
 .reviews-items-job {
     color: #4F4F4F;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.contacts {
+    background-color: #090d0f;
+    background-image: url(../img/contacts_bg.png);
+}
+
+.contacts-title {
+    color: #FFFFFF;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
+}
+
+.contacts-text {
+    color: #FFFFFF;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.contacts-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.footer-information {
+    color: #000000;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
 }
