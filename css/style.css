@@ -6,6 +6,14 @@ body {
     font-weight: 300;
 }
 
+.center-container {
+    width: 1115px;
+    margin: 0px auto;
+}
+
+.header {
+    padding: 23px 0px 31px;
+}
 .header-title {
     color: #005FA3;
     font-family: "Merriweather";
@@ -38,12 +46,14 @@ body {
 }
 
 .desc {
+    padding: 170px 0;
     background-color: #191E22;
     background-image: url(../img/first_screen_bg.png);
 
 }
 
 .desc-title {
+    margin: 0 0 131px;
     color:#ffffff;
     font-family: "Merriweather";
     font-size: 48px;
@@ -58,6 +68,10 @@ body {
     font-size: 25px;
     font-weight: 400;
     line-height: 34px;
+
+    width: 333px;
+    min-height: 84px;
+    display: block;
 }
 
 .desc-link {
@@ -66,6 +80,7 @@ body {
 
 .service {
     background-color: #EBEBEB;
+    padding: 140px 0px;
 }
 
 .section-title {
@@ -74,6 +89,7 @@ body {
     font-size: 24px;
     font-weight: 900;
     line-height: 33px;
+    margin-bottom: 40px;
 }
 
 .section-sub-title {
@@ -82,6 +98,11 @@ body {
     font-size: 48px;
     font-weight: 900;
     line-height: 69px;
+    margin-bottom: 102px;
+}
+
+.about-us {
+    padding: 140px 0px;
 }
 
 .about-us-styled-text {
@@ -96,34 +117,6 @@ body {
     line-height: 25px;
 }
 
-.clients {
-    background-color: #EBEBEB;
-}
-
-.advantage {
-    background-color: #EBEBEB;
-}
-
-.advantage-text {
-    color: #000000;
-    font-family: Lato;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px;
-}
-
-.service-item-title {
-    color: #FFFFFF;
-}
-
-.service-item-link {
-    background-image: url(../img/our_services_bg.png);
-    text-decoration: none;
-    font-family: "Lato";
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 30px;
-}
 .about-us-item-elements {
     background-color: #EBEBEB;
 }
@@ -151,6 +144,40 @@ body {
     line-height: 17px;
 }
 
+.clients {
+    background-color: #EBEBEB;
+    padding: 85px 0px 92px;
+}
+
+.advantage {
+    background-color: #EBEBEB;
+}
+
+.advantage-text {
+    color: #000000;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.service-item-title {
+    color: #FFFFFF;
+}
+
+.service-item-link {
+    background-image: url(../img/our_services_bg.png);
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+.reviews {
+    padding: 174px 0 143px;
+}
+
 .reviews-button {
     background-color: #005FA3;
     color: #FFFFFF;
@@ -158,6 +185,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
+    border: none;
 }
 
 .reviews-items {
