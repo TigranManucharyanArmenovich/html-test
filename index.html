@@ -214,26 +214,44 @@
     <footer>
         <div class="contacts">
             <div class="center-container">
-                <h2 class="contacts-title">Связь с нами</h2>
-                <p class="contacts-text">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-                <ul>   
-                    <li>
-                        <a class="contacts-link" href="tel:81112223344">
-                            <img src="./img/thelephone_icon.svg" alt="telephone">
-                            <span>+7 (111) 222-33-44</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="contacts-link" href="mailto:order@buhone.ru">
-                            <img src="./img/mail_icon.svg" alt="mail">
-                            <span >order@buhone.ru</span>
-                        </a>
-                    </li>
-                </ul>
-                <div>
-                    form
-                    <button class="footer-button">Отправить сообщение</button>
+                <div class="form-info">
+                    <div class="form-info-flex-wrapper">
+                        <h2 class="contacts-title">Связь с нами</h2>
+                        <p class="contacts-text">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                        <ul class="contacts-flex-wrapper">   
+                            <li>
+                                <a class="contacts-link" href="tel:81112223344">
+                                    <img src="./img/thelephone_icon.svg" alt="telephone">
+                                    <span>+7 (111) 222-33-44</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="contacts-link" href="mailto:order@buhone.ru">
+                                    <img src="./img/mail_icon.svg" alt="mail">
+                                    <span >order@buhone.ru</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form action="#" class="form-flex-wrapper">
+                        <div class="form-contact-wrapper">
+                            <label>
+                                <span class="input-lable">Имя</span>
+                                <input type="text" placeholder="Иван">
+                            </label>
+                            <label>
+                                <span class="input-lable">Телефон</span>
+                                <input type="tel" placeholder="+71112223344">
+                            </label>
+                        </div>
+                        <label class="massage-flex-wrapper">
+                            <span class="input-lable">Сообщение</span>
+                            <textarea placeholder="Напишите нам..." ></textarea>
+                        </label>
+                        <button class="footer-button" type="submit">Отправить сообщение</button>
+                    </form>
                 </div>
+                
             </div>
             
         </div>
